@@ -32,10 +32,9 @@
 3. 在AndroidManifest.xml中配置权限：`android.permission.INTERNET`、`android.permission.ACCESS_WIFI_STATE`
 
 4. 在游戏初始化时调用com.elextech.cpb.Cpbelex的init方法，包含三个参数：
-
 	* c为游戏当前的Activity，
 	* id为游戏的推广id，
-	* callback为com.elextech.cpb.Cpbelex.CpbCallback接口的实例，用于回调。
+	* callback为Cpbelex.CpbCallback接口的实例，用于回调。
 
 5. 广告展示：
 直接调用Cpbelex的show方法即可。
