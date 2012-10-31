@@ -8,7 +8,7 @@
 	* appid:	游戏id
 	* uid:		玩家id
 	* CallbackGame:	回调函数
-	* isTest: 是否为测试环境标识
+	* isTest: 是否为测试环境标识(目前测试环境不可用，请直接设置为false)
 4. 发起支付：
 
 	```
